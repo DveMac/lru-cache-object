@@ -1,7 +1,7 @@
 {
   "name": "lru-cache-object",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "A simple proxy that creates plain javascript objects that behave like an lru cache.",
   "main": "src/index.js",
   "scripts": {
     "test": "node src/test.js | faucet",

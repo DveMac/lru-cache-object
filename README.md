@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/DveMac/lru-cache-object.svg?branch=master)](https://travis-ci.org/DveMac/lru-cache-object.svg?branch=master) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Build Status](https://travis-ci.org/DveMac/lru-cache-object.svg?branch=master)](https://travis-ci.org/DveMac/lru-cache-object) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 # lru-cache-object
 
-A simple proxy to [lru-cache](https://github.com/isaacs/node-lru-cache) that creates plain javascript objects that behave like an lru cache. 
+A simple proxy to [lru-cache](https://github.com/isaacs/node-lru-cache) that creates plain javascript objects that behave like an lru cache.
 
 Accepts the same configuration options as [lru-cache](https://github.com/isaacs/node-lru-cache/#options)
 
