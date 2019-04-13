@@ -1,0 +1,46 @@
+{
+  "name": "lru-cache-object",
+  "version": "0.1.2",
+  "description": "A simple proxy that creates plain javascript objects that behave like an lru cache.",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint ./src/index.js",
+    "test": "node src/test.js | faucet",
+    "test:watch": "nodemon src/test.js | faucet",
+    "prepublishOnly": "npm run lint && npm test"
+  },
+  "author": "dvemac",
+  "keywords": [
+    "cache",
+    "lru",
+    "object",
+    "caching",
+    "hash",
+    "map",
+    "tiny",
+    "least",
+    "recently",
+    "used",
+    "lru-cache"
+  ],
+   "bugs": {
+    "url": "https://github.com/dvemac/lru-cache-object/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvemac/lru-cache-object.git"
+  },
+  "homepage": "https://github.com/dvemac/lru-cache-object/#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.0",
+    "faucet": "0.0.1",
+    "nodemon": "^1.18.11",
+    "tape": "^4.10.1"
+  },
+  "dependencies": {
+    "lru-cache": "^5.1.1"
+  }
+}
